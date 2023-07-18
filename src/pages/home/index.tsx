@@ -41,9 +41,10 @@ export const Home = (): JSX.Element => {
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
                 title={userData.nameUser}
-                width={"48px"}
-                height={"48px"}
+                width={"100px"}
+                height={"100px"}
               />
+              <br />
               <Text color="grey4">Hello, my name is {userData.nameUser}. I am a FullStack Developer in training, already graduated as a Front End Developer. With a degree in Mechanical Engineering, I enjoy working in teams, have good communication skills, and I'm versatile in problem-solving. I am always seeking improvements, with a lot of focus and discipline to acquire new knowledge.</Text>
             </Flex2>
             <Text as="h1" type="heading1" color="grey5">
