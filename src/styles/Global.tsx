@@ -21,6 +21,14 @@ export const Flex = styled("div", {
   alignItems: "center",
 });
 
+export const Flex2 = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$1",
+  alignItems: "center",
+  textAlign: "center",
+});
+
 export const Box = styled("div", {
   maxWidth: "100%",
 });

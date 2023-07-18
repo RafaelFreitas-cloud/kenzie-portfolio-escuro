@@ -1,5 +1,5 @@
 // Styles
-import { Container, Flex } from "@/styles/Global";
+import { Container, Flex, Flex2 } from "@/styles/Global";
 import { Text } from "@/styles/Text";
 import { Button } from "@/styles/Buttons";
 
@@ -36,7 +36,7 @@ export const Home = (): JSX.Element => {
       <Header>
         <Container>
           <HeaderContent>
-            <Flex>
+            <Flex2>
               <UserImage
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
@@ -44,18 +44,25 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
-            </Flex>
+              <Text color="grey4">Hello, my name is {userData.nameUser}. I am a FullStack Developer in training, already graduated as a Front End Developer. With a degree in Mechanical Engineering, I enjoy working in teams, have good communication skills, and I'm versatile in problem-solving. I am always seeking improvements, with a lot of focus and discipline to acquire new knowledge.</Text>
+            </Flex2>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                Manage
               </Text>{" "}
-              creating and{" "}
+              and{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                solve
               </Text>{" "}
-              projects
+              problems in a{" "}
+              <Text as="span" type="heading1" color="brand1">
+                practical
+              </Text>{" "}
+              and{" "}
+              <Text as="span" type="heading1" color="brand1">
+                objective
+              </Text>{" "}
+              way.
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
