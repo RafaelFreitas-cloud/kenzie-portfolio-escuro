@@ -16,6 +16,7 @@ import {
   FaNode,
   FaReact,
   FaSass,
+  FaAngular
 } from "react-icons/fa";
 import { DiDjango } from "react-icons/di";
 
@@ -26,6 +27,7 @@ export const stackData = [
   { title: "TypeScript", img: SiTypescript },
   { title: "React", img: FaReact },
   { title: "Next.js", img: TbBrandNextjs },
+  { title: "Angular", img: FaAngular },
   { title: "Styled-Componets", img: SiStyledcomponents },
   { title: "Sass", img: FaSass },
   { title: "Node.JS", img: FaNode },
