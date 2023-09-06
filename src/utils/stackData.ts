@@ -16,7 +16,8 @@ import {
   FaNode,
   FaReact,
   FaSass,
-  FaAngular
+  FaAngular,
+  FaJava
 } from "react-icons/fa";
 import { DiDjango } from "react-icons/di";
 
@@ -35,6 +36,7 @@ export const stackData = [
   { title: "NestJS", img: SiNestjs },
   { title: "Python", img: FaPython },
   { title: "Django", img: DiDjango },
+  { title: "Java", img: FaJava },
   { title: "Prisma", img: SiPrisma },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
